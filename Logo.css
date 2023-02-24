@@ -107,3 +107,47 @@ position: relative;
     background-color: blue;
 
 }
+
+#dom1 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#dom2 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#answer2 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#answer2:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#falseanswer2 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#falseanswer2:hover {
+    border-color: rgb(0, 166, 255);
+}
