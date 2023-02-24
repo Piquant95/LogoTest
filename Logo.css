@@ -13,6 +13,8 @@ body {
     background-color: black;
 }
 
+
+
 #question {
     color: white;
     padding-left: 42%;
@@ -85,8 +87,13 @@ margin-left: 15%;
 .hide {
     display: none;
 }
-.firstdisplay {
-position: relative;
+
+.hide2 {
+    display: none;
+}
+
+.invisible {
+    display: none;
 }
 
 #mainscreen {
@@ -150,4 +157,48 @@ position: relative;
 
 #falseanswer2:hover {
     border-color: rgb(0, 166, 255);
+}
+
+#falseanswer3 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#falseanswer3:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#answer3 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#answer3:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#master1 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#master2 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
 }
