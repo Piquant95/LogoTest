@@ -15,6 +15,12 @@ const fourthProblem = document.getElementById('problem4')
 const answer4 = document.getElementById('answer4')
 const falseanswer4 = document.getElementById('falseanswer4')
 const fifthProblem = document.getElementById('problem5')
+const answer5 = document.getElementById('answer5')
+const falseanswer5 = document.getElementById('falseanswer5')
+const sixthProblem = document.getElementById('problem6')
+const answer6 = document.getElementById('answer6')
+const falseanswer6 = document.getElementById('falseanswer6')
+const seventhProblem = document.getElementById('problem7')
 
 beginButton.addEventListener('click', beginGame)
 answer1.addEventListener('click', question2)
@@ -25,6 +31,10 @@ answer3.addEventListener('click', question4)
 falseanswer3.addEventListener('click', gameover)
 answer4.addEventListener('click', question5)
 falseanswer4.addEventListener('click', gameover)
+answer5.addEventListener('click', question6)
+falseanswer5.addEventListener('click', gameover)
+answer6.addEventListener('click', question7)
+falseanswer6.addEventListener('click', gameover)
 
 function gameover() {
     console.log('Game Over')
@@ -33,6 +43,7 @@ function gameover() {
     secondProblem.classList.add('hide')
     thirdProblem.classList.add('hide')
     fourthProblem.classList.add('hide')
+    fifthProblem.classList.add('hide')
     
 }
 
@@ -70,4 +81,16 @@ function question5() {
     console.log('You are a pro!')
     fourthProblem.classList.add('hide')
     fifthProblem.classList.remove('hide')
+}
+
+function question6() {
+    console.log('I cannot believe you are still going!')
+    fifthProblem.classList.add('hide')
+    sixthProblem.classList.remove('hide')
+}
+
+function question7() {
+    console.log('Amazing!')
+    sixthProblem.classList.add('hide')
+    seventhProblem.classList.remove('hide')
 }

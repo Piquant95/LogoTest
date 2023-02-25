@@ -287,3 +287,91 @@ margin-left: 15%;
 #falseanswer5:hover {
     border-color: rgb(0, 166, 255);
 }
+
+#fedex1 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#fedex2 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#answer6 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#answer6:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#falseanswer6 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#falseanswer6:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#north1 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#north2 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#falseanswer7 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#falseanswer7:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#answer7 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#answer7:hover {
+    border-color: rgb(0, 166, 255);
+}
