@@ -5,7 +5,6 @@ body {
 
     padding: 0;
     margin: 0;
-    
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -88,13 +87,6 @@ margin-left: 15%;
     display: none;
 }
 
-.hide2 {
-    display: none;
-}
-
-.invisible {
-    display: none;
-}
 
 #mainscreen {
     width: 100%;
@@ -201,4 +193,97 @@ margin-left: 15%;
     width: 30%;
     height:auto;
     margin-left: 12%;
+}
+
+#answer4 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#answer4:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#falseanswer4 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#falseanswer4:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#nbc1 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#nbc2 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#gameover {
+    width: 100%;
+    height:auto;
+}
+
+#playstation1 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#playstation2 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#answer5 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#answer5:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#falseanswer5 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#falseanswer5:hover {
+    border-color: rgb(0, 166, 255);
 }

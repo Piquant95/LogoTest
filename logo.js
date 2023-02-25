@@ -7,17 +7,32 @@ const falseanswer1 = document.getElementById('character')
 const gameOver = document.getElementById('gameover')
 const allQuestions = document.getElementsByTagName('all')[0];
 const answer2 = document.getElementById('answer2')
+const falseanswer2 = document.getElementById('falseanswer2')
 const thirdProblem = document.getElementById('problem3')
+const answer3 = document.getElementById('answer3')
+const falseanswer3 = document.getElementById('falseanswer3')
+const fourthProblem = document.getElementById('problem4')
+const answer4 = document.getElementById('answer4')
+const falseanswer4 = document.getElementById('falseanswer4')
+const fifthProblem = document.getElementById('problem5')
 
 beginButton.addEventListener('click', beginGame)
 answer1.addEventListener('click', question2)
 falseanswer1.addEventListener('click', gameover)
 answer2.addEventListener('click', question3)
+falseanswer2.addEventListener('click', gameover)
+answer3.addEventListener('click', question4)
+falseanswer3.addEventListener('click', gameover)
+answer4.addEventListener('click', question5)
+falseanswer4.addEventListener('click', gameover)
 
 function gameover() {
     console.log('Game Over')
-    allQuestions.classList.add('hide')
     gameOver.classList.remove('hide')
+    questionElement.classList.add('hide')
+    secondProblem.classList.add('hide')
+    thirdProblem.classList.add('hide')
+    fourthProblem.classList.add('hide')
     
 }
 
@@ -41,16 +56,18 @@ function question3() {
     console.log('Keep Going') 
     secondProblem.classList.add('hide')
     thirdProblem.classList.remove('hide')
-    console.log(thirdProblem)
-    
-   
     
 }
 
-function setNextQuestion() {
+function question4() {
+    console.log('You are on fire!')
+    thirdProblem.classList.add('hide')
+    fourthProblem.classList.remove('hide')
 
 }
 
-function selectAnswer() {
-
+function question5() {
+    console.log('You are a pro!')
+    fourthProblem.classList.add('hide')
+    fifthProblem.classList.remove('hide')
 }
