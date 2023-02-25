@@ -375,3 +375,47 @@ margin-left: 15%;
 #answer7:hover {
     border-color: rgb(0, 166, 255);
 }
+
+#amazon1 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#amazon2 {
+    width: 30%;
+    height:auto;
+    margin-left: 12%;
+}
+
+#answer8 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#answer8:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#falseanswer8 {
+    gap: 5px;
+    border-radius: 50px;
+    width: 4em;
+    height: 4em;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#falseanswer8:hover {
+    border-color: rgb(0, 166, 255);
+}

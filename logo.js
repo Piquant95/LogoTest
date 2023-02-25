@@ -21,6 +21,9 @@ const sixthProblem = document.getElementById('problem6')
 const answer6 = document.getElementById('answer6')
 const falseanswer6 = document.getElementById('falseanswer6')
 const seventhProblem = document.getElementById('problem7')
+const answer7 = document.getElementById('answer7')
+const falseanswer7 = document.getElementById('falseanswer7')
+const eighthProblem = document.getElementById('problem8')
 
 beginButton.addEventListener('click', beginGame)
 answer1.addEventListener('click', question2)
@@ -35,6 +38,8 @@ answer5.addEventListener('click', question6)
 falseanswer5.addEventListener('click', gameover)
 answer6.addEventListener('click', question7)
 falseanswer6.addEventListener('click', gameover)
+answer7.addEventListener('click', question8)
+falseanswer7.addEventListener('click', gameover)
 
 function gameover() {
     console.log('Game Over')
@@ -44,6 +49,8 @@ function gameover() {
     thirdProblem.classList.add('hide')
     fourthProblem.classList.add('hide')
     fifthProblem.classList.add('hide')
+    sixthProblem.classList.add('hide')
+    seventhProblem.classList.add('hide')
     
 }
 
@@ -93,4 +100,10 @@ function question7() {
     console.log('Amazing!')
     sixthProblem.classList.add('hide')
     seventhProblem.classList.remove('hide')
+}
+
+function question8() {
+    console.log('Amazing!')
+    seventhProblem.classList.add('hide')
+    eighthProblem.classList.remove('hide')
 }
