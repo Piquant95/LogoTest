@@ -463,3 +463,39 @@ margin-left: 15%;
 #answer9:hover {
     border-color: rgb(0, 166, 255);
 }
+
+#Ribbon {
+    width: 20%;
+    height:auto;
+    margin-top: 3%;
+    margin-left: 38%;
+}
+
+#restart-btn {
+    gap: 5px;
+    border-radius: 50px;
+    width: 18em;
+    height: 6em;
+    margin-left: 40%;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px, 60px;
+}
+
+#restart-btn:hover {
+    border-color: greenyellow;
+    background-color: greenyellow;
+
+}
+
+#winner {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
+    margin-bottom: %;
+    margin-top: 2%;
+    
+
+}

@@ -5,7 +5,6 @@ const mainScreen = document.getElementById('mainscreen')
 const answer1 = document.getElementById('letter')
 const falseanswer1 = document.getElementById('character')
 const gameOver = document.getElementById('gameover')
-const allQuestions = document.getElementsByTagName('all')[0];
 const answer2 = document.getElementById('answer2')
 const falseanswer2 = document.getElementById('falseanswer2')
 const thirdProblem = document.getElementById('problem3')
@@ -27,6 +26,10 @@ const eighthProblem = document.getElementById('problem8')
 const answer8 = document.getElementById('answer8')
 const falseanswer8 = document.getElementById('falseanswer8')
 const ninthProblem = document.getElementById('problem9')
+const answer9 = document.getElementById('answer9')
+const falseanswer9 = document.getElementById('falseanswer9')
+const gameWon = document.getElementById('congrats')
+const playAgain = document.getElementById('restart-btn')
 
 beginButton.addEventListener('click', beginGame)
 answer1.addEventListener('click', question2)
@@ -45,6 +48,9 @@ answer7.addEventListener('click', question8)
 falseanswer7.addEventListener('click', gameover)
 answer8.addEventListener('click', question9)
 falseanswer8.addEventListener('click', gameover)
+answer9.addEventListener('click', winner)
+falseanswer9.addEventListener('click', gameover)
+playAgain.addEventListener('click', beginGame)
 
 function gameover() {
     console.log('Game Over')
@@ -57,6 +63,7 @@ function gameover() {
     sixthProblem.classList.add('hide')
     seventhProblem.classList.add('hide')
     eighthProblem.classList.add('hide')
+    ninthProblem.classList.add('hide')
     
 }
 
@@ -65,8 +72,8 @@ function beginGame() {
     beginButton.classList.add('hide')
     mainScreen.classList.add('hide')
     questionElement.classList.remove('hide')
-    answer1.classList.remove('hide')
-    setNextQuestion()
+    gameWon.classList.add('hide')
+    
 }
 
 function question2() {
@@ -118,4 +125,10 @@ function question9() {
     console.log('Almost there!')
     eighthProblem.classList.add('hide')
     ninthProblem.classList.remove('hide')
+}
+
+function winner() {
+    console.log('You did it!')
+    ninthProblem.classList.add('hide')
+    gameWon.classList.remove('hide')
 }
