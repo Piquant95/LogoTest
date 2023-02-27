@@ -15,7 +15,7 @@ body {
     color: white;
     padding-left: 42%;
     font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium',  'Arial Narrow', Arial, sans-serif;
     margin-bottom: 8%;
     margin-top: 10%;
 
@@ -229,7 +229,7 @@ margin-left: 15%;
 }
 
 #gameover {
-    width: 100%;
+    width: 70%;
     height:auto;
 }
 
@@ -475,6 +475,25 @@ margin-left: 15%;
 #restart-btn:hover {
     border-color: greenyellow;
     background-color: greenyellow;
+
+}
+
+#restart-bttn {
+    gap: 5px;
+    border-radius: 50px;
+    width: 18em;
+    height: 6em;
+    margin-left: 40%;
+    margin-top: 1%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 50px, 60px;
+    background-color: red;
+}
+
+#restart-bttn:hover {
+    border-color: gold;
+    background-color: gold;
 
 }
 

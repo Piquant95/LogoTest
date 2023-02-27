@@ -30,6 +30,7 @@ const answer9 = document.getElementById('answer9')
 const falseanswer9 = document.getElementById('falseanswer9')
 const gameWon = document.getElementById('congrats')
 const playAgain = document.getElementById('restart-btn')
+const retry = document.getElementById('restart-bttn')
 
 beginButton.addEventListener('click', beginGame)
 answer1.addEventListener('click', question2)
@@ -51,6 +52,7 @@ falseanswer8.addEventListener('click', gameover)
 answer9.addEventListener('click', winner)
 falseanswer9.addEventListener('click', gameover)
 playAgain.addEventListener('click', beginGame)
+retry.addEventListener('click', beginGame)
 
 function gameover() {
     console.log('Game Over')
@@ -64,6 +66,7 @@ function gameover() {
     seventhProblem.classList.add('hide')
     eighthProblem.classList.add('hide')
     ninthProblem.classList.add('hide')
+    retry.classList.remove('hide')
     
 }
 
@@ -73,7 +76,8 @@ function beginGame() {
     mainScreen.classList.add('hide')
     questionElement.classList.remove('hide')
     gameWon.classList.add('hide')
-    
+    retry.classList.add('hide')
+    gameOver.classList.add('hide')
 }
 
 function question2() {
