@@ -1,3 +1,4 @@
+// Pulling all the required elements from the HTML
 const beginButton = document.getElementById('begin-btn')
 const questionElement = document.getElementById ('problem1')
 const secondProblem = document.getElementById('problem2')
@@ -32,6 +33,8 @@ const gameWon = document.getElementById('congrats')
 const playAgain = document.getElementById('restart-btn')
 const retry = document.getElementById('restart-bttn')
 
+// functionality of answer buttons to either transition
+// to the next question if correct or end the game if incorrect.
 beginButton.addEventListener('click', beginGame)
 answer1.addEventListener('click', question2)
 falseanswer1.addEventListener('click', gameover)
@@ -54,6 +57,11 @@ falseanswer9.addEventListener('click', gameover)
 playAgain.addEventListener('click', beginGame)
 retry.addEventListener('click', beginGame)
 
+// Each screen/question is given it's own function so that it
+// hides the previous question as well as console logs a small 
+// message. The gameover function hides all the questions so 
+// that no matter which one you are on it will disappear if
+// you lose. 
 function gameover() {
     console.log('Game Over')
     gameOver.classList.remove('hide')

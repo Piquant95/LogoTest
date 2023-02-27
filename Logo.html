@@ -9,7 +9,18 @@
 </head>
 <body> 
     <all>
+<!-- Audio is optional and can be controlled by player. -->
          <audio src="Funky Boxstep .mp3" controls></audio>
+ 
+<!-- Directly below is begin button as well as mainscreen image.         -->
+<button id="begin-btn" class="begin-btn btn">Begin</button>
+<img href="https://lh3.googleusercontent.com/jY5uXHQH7bPB7HnnAMQeTCGcfs0wVnq3zZ6XG4RZdN1zDzqxz-zdtVKECY3CMcGInjjEvXPw45IgmEQzm9pk3SELrsQNWBX8d4bqAL0y-EWXkq4ocYH0iH4uXXRsXdc9ADdk79j2O-A=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/jY5uXHQH7bPB7HnnAMQeTCGcfs0wVnq3zZ6XG4RZdN1zDzqxz-zdtVKECY3CMcGInjjEvXPw45IgmEQzm9pk3SELrsQNWBX8d4bqAL0y-EWXkq4ocYH0iH4uXXRsXdc9ADdk79j2O-A=w600-h315-p-k" id="mainscreen" /> </a>
+        
+  <!-- Problem 1 - 9 below are structured almost identically. with each 
+  problem having it's own unique ID as well as a shared class of
+  hide so that they all will be hidden until called upon.
+They also have a shared ID for the question since in this game
+the question will be the same for each problem.      -->
 <div id="problem1" class = "hide">
      <div id="question"> Which one is the correct logo?</div>
      <div>
@@ -22,10 +33,6 @@
      </div>
 </div>
  
-
-<button id="begin-btn" class="begin-btn btn">Begin</button>
-<img href="https://lh3.googleusercontent.com/jY5uXHQH7bPB7HnnAMQeTCGcfs0wVnq3zZ6XG4RZdN1zDzqxz-zdtVKECY3CMcGInjjEvXPw45IgmEQzm9pk3SELrsQNWBX8d4bqAL0y-EWXkq4ocYH0iH4uXXRsXdc9ADdk79j2O-A=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/jY5uXHQH7bPB7HnnAMQeTCGcfs0wVnq3zZ6XG4RZdN1zDzqxz-zdtVKECY3CMcGInjjEvXPw45IgmEQzm9pk3SELrsQNWBX8d4bqAL0y-EWXkq4ocYH0iH4uXXRsXdc9ADdk79j2O-A=w600-h315-p-k" id="mainscreen" /> </a>
-        
 <div id="problem2" class = "hide">
      <div id="question"> Which one is the correct logo?</div>
      <div>
@@ -122,6 +129,11 @@
     </div> 
 </div>
 
+<!-- Congrats screen shows up once game is completed and has similar 
+code layout to the problems above. However, a button was removed 
+so that only one displays which was changed to say "play again". 
+question was also changed to say congratulations. and images 
+removed to have just once gif displayed. -->
 <div id="congrats" class = "hide">
     <div id="winner"> Congratulations! You've won!</div>
       <div>
@@ -133,7 +145,7 @@
 </div>
 
     </all>
-        
+   <!-- below are the game over gif and the try again button if a player loses.      -->
 <img src="https://media.tenor.com/kQb5z-x4qpkAAAAC/game-over-insert-coins.gif" class="hide" id="gameover" alt="Game Over Insert Coins GIF - Game Over Insert Coins GIFs">
 
 <div id="answer-buttons">
