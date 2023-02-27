@@ -89,17 +89,18 @@ margin-left: 15%;
 
 
 #mainscreen {
-    width: 100%;
+    width: 90%;
     max-width: 100%;
     height: auto;
+    margin-left: 5%;
 }
 
 #begin-btn {
     border-radius: 50px;
     width: 10rem;
     height: 5rem;
-    margin-left: 47%; 
-    margin-top: 37%;
+    margin-left: 36%; 
+    margin-top: 36%;
     font-size: 2rem;
     font-weight: bold;
     position: absolute;
